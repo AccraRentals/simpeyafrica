@@ -43,9 +43,13 @@ section.section-banner-bg {
 }
 
 section.section-banner-bg span {
-    margin: 60px 0px 30px;
+    margin: 30px 0px 30px;
     display: block;
     font-size: 22px;
+}
+h1.mt-4 {
+    font-size: 60px;
+    font-weight: bold;
 }
 
 section.section-banner-bg h1 a {
@@ -116,7 +120,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .duplex-banner-hero h1 {
