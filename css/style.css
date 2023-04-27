@@ -28,6 +28,7 @@ section.section-banner-bg {
     padding: 120px 0px 40px;
     color: #fff;
     position: relative;
+    background-attachment: fixed;
 }
 
 .section-banner-bg::before {
@@ -134,6 +135,17 @@ a:hover {
 
 .top {
     cursor: pointer;
+}
+.ps-lg-3 h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+h1.text-center {
+    font-size: 60px;
+    font-weight: bold;
+}
+.col-lg-12.col-md-12.col-sm-12.px-lg-5.mx-lg-4 span {
+    font-size: 22px;
 }
 
 /* lightbox css */
@@ -548,7 +560,7 @@ a:hover {
     .home-information h1,
     .bedroomduplex-call h1,
     .bedroomduplex-call a {
-        font-size: 50px;
+        font-size: 60px;
 
     }
 }
