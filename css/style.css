@@ -4,6 +4,17 @@ body {
     overflow-x: hidden;
 }
 
+a.what-apps {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+a.what-apps img {
+    width: 50px;
+}
+
 .container {
     max-width: 90%;
 }
@@ -635,15 +646,4 @@ h1.text-center {
         margin: 0px 0px;
     }
 
-}
-
-a.what-apps {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    z-index: 1;
-}
-
-a.what-apps img {
-    width: 50px;
 }
