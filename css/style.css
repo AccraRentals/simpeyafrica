@@ -636,3 +636,14 @@ h1.text-center {
     }
 
 }
+
+a.what-apps {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+a.what-apps img {
+    width: 50px;
+}
