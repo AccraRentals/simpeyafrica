@@ -120,8 +120,11 @@ a:hover {
 .text-dark {
     color: #000 !important;
 }
-
-/ 2bedroomduplex page css start /
+.background-map-image img{
+    width: 100%;
+    
+}
+/* 2bedroomduplex page css start */
 
 .duplex-banner-hero {
     background-image: url(../img/2bedroomduplex-banner-img.webp);
@@ -163,7 +166,7 @@ h1.text-center {
     font-size: 22px;
 }
 
-/ lightbox css /
+/* lightbox css */
 .lum-close-button:before,
 .lum-close-button:after {
     background-color: #000 !important;
@@ -378,7 +381,7 @@ h1.text-center {
     border-radius: 0 3px 0 0;
 }
 
-/ This media query makes screens less than 460px wide display in a "fullscreen"-esque mode. Users can then scroll around inside the lightbox to see the entire image. /
+/* This media query makes screens less than 460px wide display in a "fullscreen"-esque mode. Users can then scroll around inside the lightbox to see the entire image. */
 @media (max-width: 460px) {
     .lum-lightbox-image-wrapper {
         display: flex;
@@ -392,7 +395,7 @@ h1.text-center {
         bottom: 0;
     }
 
-    / Used to centre the image in the container, respecting overflow: https://stackoverflow.com/a/33455342/515634 /
+    /* Used to centre the image in the container, respecting overflow: https://stackoverflow.com/a/33455342/515634 */
     .lum-lightbox-position-helper {
         margin: auto;
     }
@@ -515,7 +518,7 @@ h1.text-center {
     }
 }
 
-/ lightbox css end /
+/* lightbox css end */
 .home-information h1 {
     font-size: 60px;
     color: #212121;
